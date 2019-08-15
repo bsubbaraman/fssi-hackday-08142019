@@ -24,6 +24,12 @@
 	* Error Checking: make sure no fields blank, exposure vector values are reasonable, etc
 
 
+* AWS Resources/notes
+	* [Host a static website using s3](https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/module-1/)
+		* Will get a warning about public access, but this is anticipated; we are making the bucket read-only to everybody so that anybody can access the webpage
+	* After deploying an API, if any changes are made and saved, it is still required to _re-deploy the API_ for changes to be made
+	* 
+
 
 
 
